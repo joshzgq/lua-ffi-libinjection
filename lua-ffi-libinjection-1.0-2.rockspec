@@ -1,5 +1,5 @@
 package = "lua-ffi-libinjection"
-version = "1.0-1"
+version = "1.0-2"
 source = {
   url = "git://github.com/polaristech-io/lua-ffi-libinjection.git",
   tag = "v1.0"
@@ -17,6 +17,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      ["resty.injection"] = "lib/resty/injection.lua"
+      ["resty.libinjection"] = "lib/resty/libinjection.lua"
    }
 }
